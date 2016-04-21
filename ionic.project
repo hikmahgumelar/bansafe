@@ -1,0 +1,8 @@
+{
+  "name": "bansafe",
+  "app_id": "",
+   "proxies": [{
+      "path": "/api",
+      "proxyUrl": "http://flight.amanahcorp.com/api/"
+    }]
+}

@@ -1,0 +1,9 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/home/hikmah/project/bansafe/platforms/android/assets/www/lib/ionic/js/angular-ui/angular-ui-router.min.js",
+        "/home/hikmah/project/bansafe/www/lib/ionic/js/angular-ui/angular-ui-router.min.js",
+        "/home/hikmah/project/bansafe/www/lib/ionic/js/angular-ui/angular-ui-router.js",
+        "/home/hikmah/project/bansafe/www/lib/ionic/js/angular/angular-sanitize.min.js",
+        "/home/hikmah/project/bansafe/www/lib/ionic/js/angular/angular-animate.js"
+    ]
+}
