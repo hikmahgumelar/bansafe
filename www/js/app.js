@@ -6,12 +6,12 @@
 angular.module('starter', ['ionic'])
  
   .controller("Ambildata", function ($scope, $http) {
-  var asal = $scope.asal
+  $scope.formdata = {};
     $scope.proses = function() {  
 
-    $http.get('/api/keretaapi?origination='+asal+'&destination=BD&tanggal=20160423&apikey=TzW9lTM0RBsm2AgnL2M3AZgCZCcwz5hx_1412403086').success(function (data) {
+    $http.get('/api/keretaapi?origination='+$scope.formdata.asal+'&destination=BD&tanggal=20160423&apikey=TzW9lTM0RBsm2AgnL2M3AZgCZCcwz5hx_1412403086').success(function (data) {
 $scope.events = data;
-$scope.gugum = "data keretaapi";
+
      });
     };
              

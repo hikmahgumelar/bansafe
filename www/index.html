@@ -30,17 +30,17 @@
       <ion-content >
     <div class="list">
     <label class="item item-input" color="energized">
-    <input type="text" placeholder="Asal" ng-model="asal">
+    <input type="text" placeholder="Asal" ng-model="formdata.asal">
    </label>
 
    <label class="item item-input">
-   <input type="text" placeholder="Tujuan" ng-model="tujuan">
+   <input type="text" placeholder="Tujuan" ng-model="formdata.tujuan">
    </label>
 </div>
           <button class="button button-small button-positive" type="submit" ng-click="proses()">Cari </button>
       <ion-item collection-repeat="item in events">
         {{item.kereta}}
-        {{asal}}
+        
         
       </ion-item>
       
